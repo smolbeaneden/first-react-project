@@ -1,0 +1,58 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.heading{
+    color: #f7d7fa;
+    text-shadow: rgba(10, 12, 14, 0.24) 1px 1px 3px;
+    font-size: 4em;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.board{
+    margin-block: 0.5em;
+    justify-content: center;
+    vertical-align: center;
+    align-self: center;
+    width: 40em;
+    height: 40em;
+    background-color: #a0a3c6;
+    justify-self: center;
+    position: relative;
+    align-content: center;
+    box-shadow: rgba(10, 12, 14, 0.14) 2px 4px 4px 3px;
+    border-radius: 1em;
+}
+
+.label{
+    position: static;
+    margin-bottom: 40em;
+    font-size: 1.5em;
+    padding: 0.5em;
+
+}
+.label:hover{
+
+}
+
+
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+
